@@ -16,6 +16,7 @@
   "author": "Andersen Stewart (@Android-JCPP-Servo)",
   "license": "ISC",
   "devDependencies": {
-    "assert": "^2.0.0"
+    "assert": "^2.0.0",
+    "mocha": "^10.1.0"
   }
 }
