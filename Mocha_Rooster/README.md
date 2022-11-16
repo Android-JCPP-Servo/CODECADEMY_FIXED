@@ -7,3 +7,10 @@ By the end of this project you will have a fast, complete, reliable, isolated, m
 
 You can find the rooster defined in index.js. You will write a test suite in index_test.js within the test directory using the [Mocha test framework](https://mochajs.org/) and [assert methods](https://nodejs.org/api/assert.html) from the Node.js standard library. If you’re unsure about any of the methods, you can use the documentation linked.
 
+## Frameworks and Modules Required
+
+**Mocha**
+![Mocha Framework]()
+
+**Assert**
+![Assert Module]()
