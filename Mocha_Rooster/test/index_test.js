@@ -19,6 +19,7 @@ describe('Rooster', () => {
         })
     })
     describe('.timeAtDawn', () => {
+        // Get current hour
         it('returns its argument as a string', () => {
             // Get current hour
             const d = new Date();
@@ -29,6 +30,18 @@ describe('Rooster', () => {
         
             // Check if results is a string
             assert.strictEqual(typeof results, 'string');
+        })
+        // Invalid input
+        it('returns its argument as a string (invalid input)', () => {
+            // Set invalid hour
+            let hour = '12';
+    
+            // Call .timeAtDawn and store result
+            const results = Rooster.timeAtDawn(hour);
+            console.log(results);
+    
+            // Check if results is a string
+            assert.strictEqual(results, 'string');
         })
     })
 })
