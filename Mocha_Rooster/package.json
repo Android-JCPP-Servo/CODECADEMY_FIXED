@@ -1,0 +1,21 @@
+{
+  "name": "mocha_rooster",
+  "version": "1.0.0",
+  "description": "An experimental rooster object has been developed without any tests! It’s up to you to write them.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "mocha",
+    "npm",
+    "node.js",
+    "assert",
+    "require"
+  ],
+  "author": "Andersen Stewart (@Android-JCPP-Servo)",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.1.0"
+  }
+}
