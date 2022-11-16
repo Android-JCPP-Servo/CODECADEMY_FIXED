@@ -18,4 +18,17 @@ describe('Rooster', () => {
             assert.strictEqual(results, expected);
         })
     })
+    describe('.timeAtDawn', () => {
+        it('returns its argument as a string', () => {
+            // Get current hour
+            const d = new Date();
+            let hour = d.getHours();
+        
+            // Call .timeAtDawn and store result
+            const results = Rooster.timeAtDawn(hour);
+        
+            // Check if results is a string
+            assert.strictEqual(typeof results, 'string');
+        })
+    })
 })
