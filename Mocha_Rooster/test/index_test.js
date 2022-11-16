@@ -44,7 +44,7 @@ describe('Rooster', () => {
             assert.strictEqual(results, 'string');
         })
         // Below 0
-        it('returns its argument as a string (below 0)', () => {
+        it('throws an error if passed a number less than 0', () => {
             // Set below 0
             let hour = -1;
     
@@ -56,7 +56,7 @@ describe('Rooster', () => {
             assert.strictEqual(results, 'string');
         })
         // Above 23
-        it('returns its argument as a string (above 23)', () => {
+        it('throws an error if passed a number greater than 23', () => {
             // Set above 23
             let hour = 23.56;
     
