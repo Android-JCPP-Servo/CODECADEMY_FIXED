@@ -12,7 +12,7 @@ To ensure these tests run, make sure:
 + You have mocha installed
 + You have assert installed
 
-Run `npm test` in your terminal to perform each test
+Run `npm test` in your terminal to perform the tests
 
 ## Frameworks and Modules Required
 
