@@ -55,5 +55,17 @@ describe('Rooster', () => {
             // Check if results is a string
             assert.strictEqual(results, 'string');
         })
+        // Above 23
+        it('returns its argument as a string (above 23)', () => {
+            // Set above 23
+            let hour = 23.56;
+    
+            // Call .timeAtDawn and store result
+            const results = Rooster.timeAtDawn(hour);
+            console.log(results);
+    
+            // Check if results is a string
+            assert.strictEqual(results, 'string');
+        })
     })
 })
