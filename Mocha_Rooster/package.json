@@ -14,5 +14,8 @@
     "require"
   ],
   "author": "Andersen Stewart (@Android-JCPP-Servo)",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "assert": "^2.0.0"
+  }
 }
