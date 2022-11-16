@@ -9,8 +9,6 @@ You can find the rooster defined in index.js. You will write a test suite in ind
 
 ## Frameworks and Modules Required
 
-**Mocha**
 ![Mocha Framework](./images/mocha.svg)
 
-**Assert**
 ![Assert Module](./images/assert.jpg)
