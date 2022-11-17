@@ -12,10 +12,10 @@ describe('Calculate', () => {
             // Verification
             assert.strictEqual(result, expected);        
         });
-        it('test if the output of 60! is 1200', () => {
+        it('test if the output of 3! is 6', () => {
             // Setup
-            const baseNumber = 60;
-            const expected = 1200;
+            const baseNumber = 3;
+            const expected = 6;
             // Exercise
             const result = Calculate.factorial(baseNumber);
             // Verification
