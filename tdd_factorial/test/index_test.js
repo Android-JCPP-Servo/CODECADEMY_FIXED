@@ -23,8 +23,12 @@ describe('Calculate', () => {
         });
         it('returns 1 for 0!', () => {
             // Setup
+            const baseNumber = 0;
+            const expected = 1
             // Exercise
+            const result = Calculate.factorial(baseNumber)
             // Verification
+            assert.strictEqual(result, expected);
         })
     });
 });
