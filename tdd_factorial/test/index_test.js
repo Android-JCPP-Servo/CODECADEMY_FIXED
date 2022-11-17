@@ -11,6 +11,15 @@ describe('Calculate', () => {
             const result = Calculate.factorial(baseNumber);
             // Verification
             assert.strictEqual(result, expected);        
+        });
+        it('test if the output of 60! is 1200', () => {
+            // Setup
+            const baseNumber = 60;
+            const expected = 1200;
+            // Exercise
+            const result = Calculate.factorial(baseNumber);
+            // Verification
+            assert.strictEqual(result, expected);
         })
     });
 });
