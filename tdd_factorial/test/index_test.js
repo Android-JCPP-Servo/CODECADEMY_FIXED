@@ -21,12 +21,12 @@ describe('Calculate', () => {
             // Verification
             assert.strictEqual(result, expected);
         });
-        it('returns 1 for 0!', () => {
+        it('test if the output for 0! is 1', () => {
             // Setup
             const baseNumber = 0;
             const expected = 1
             // Exercise
-            const result = Calculate.factorial(baseNumber)
+            const result = Calculate.factorial(baseNumber);
             // Verification
             assert.strictEqual(result, expected);
         })
