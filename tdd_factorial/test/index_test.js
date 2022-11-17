@@ -20,6 +20,11 @@ describe('Calculate', () => {
             const result = Calculate.factorial(baseNumber);
             // Verification
             assert.strictEqual(result, expected);
+        });
+        it('returns 1 for 0!', () => {
+            // Setup
+            // Exercise
+            // Verification
         })
     });
 });
