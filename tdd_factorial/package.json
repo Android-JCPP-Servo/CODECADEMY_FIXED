@@ -1,0 +1,21 @@
+{
+  "name": "tdd_factorial",
+  "version": "1.0.0",
+  "description": "In this project, you will use test-driven development to build a factorial method.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "mocha",
+    "npm",
+    "node.js",
+    "assert",
+    "factorial"
+  ],
+  "author": "Andersen Stewart (@Android-JCPP-Servo)",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.1.0"
+  }
+}
