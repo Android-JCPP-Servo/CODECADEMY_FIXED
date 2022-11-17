@@ -21,7 +21,7 @@ describe('Calculate', () => {
             // Verification
             assert.strictEqual(result, expected);
         });
-        it('test if the output for 0! is 1', () => {
+        it('test if the output of 0! is 1', () => {
             // Setup
             const baseNumber = 0;
             const expected = 1
